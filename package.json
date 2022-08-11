@@ -1,0 +1,26 @@
+{
+  "name": "Gamers Management System",
+  "version": "1.0.0",
+  "description": "NoSQL project with mongodb as backend and express as frontend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "crud",
+    "mongodb"
+  ],
+  "author": "mithilesh ghadge",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongoose": "^6.5.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.6"
+  }
+}
